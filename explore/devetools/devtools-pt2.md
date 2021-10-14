@@ -1,0 +1,2 @@
+1. num1 and num2 had the values the number the user inputed in string type. So when do do the plus operation, js treats it as string concatenation and we get the two numbers concatenated to a longer string instead. so "3" + "5" becomes "35".
+2. I will fix it by converting the strings num1 and num2 to an int by using the function parseInt()
